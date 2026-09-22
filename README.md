@@ -147,7 +147,14 @@ Do not commit your `.env` file or database credentials to GitHub.
 
 ## Screenshots
 
-Screenshots of the application will be added here.
+### Home Page
+
+![Zerodha Clone Home Page](./Screenshot%202026-09-22%20171747.png)
+
+### Pricing Page
+
+![Zerodha Clone Pricing Page](./Screenshot%202026-09-22%20171846.png)
+
 
 ## Note
 
