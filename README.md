@@ -1,69 +1,71 @@
-# Zerodha Clone 📈
+# Zerodha Clone
 
-Hey! This is my **Zerodha Clone** project.
+A full-stack trading platform clone inspired by Zerodha, built with React, Node.js, Express, MongoDB, and Mongoose.
 
-I built this project to practice and understand how a full-stack web application works using React, Node.js, Express and MongoDB.
+This project was built to understand how a full-stack application works across a frontend, backend, and dashboard, including handling trading-related data such as holdings, positions, and orders.
 
-The project has a frontend, backend and dashboard, and I have also deployed it using Render.
+## Live Demo
 
-## 🔗 Live Project
+### Frontend
 
-**Frontend:**
 https://zerodha-clone-frontend-5db5.onrender.com
 
-**Backend:**
-https://zerodha-clone-backend-hpkz.onrender.com
+## Features
 
-## 🛠️ Technologies Used
+- Zerodha-inspired landing pages
+- User signup flow
+- Trading dashboard
+- Holdings management
+- Positions management
+- Order creation
+- MongoDB database integration
+- REST API integration between frontend and backend
+- Responsive UI
 
-* React.js
-* React Router
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-* Axios
-* Bootstrap / CSS
-* Render
+## Tech Stack
 
-## 📁 Project Structure
+### Frontend
+
+- React
+- React Router
+- Axios
+- Bootstrap
+- CSS
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Deployment
+
+- Render
+
+## Project Structure
 
 ```text
 Zerodha-Clone/
-│
 ├── backend/
 ├── dashboard/
 ├── frontend/
 └── README.md
 ```
 
-### Frontend
+## How It Works
 
-The frontend contains the landing pages like:
+The project is divided into three main parts: frontend, backend, and dashboard.
 
-* Home
-* Signup
-* About
-* Products
-* Pricing
-* Support
+The frontend contains the public-facing pages such as Home, About, Products, Pricing, Support, and Signup.
 
-### Backend
+The backend is built with Node.js and Express and provides APIs for managing trading-related data such as holdings, positions, and orders.
 
-The backend is built using Node.js and Express.
+The dashboard provides the interface for viewing and interacting with trading-related data.
 
-It handles things like:
+MongoDB is used to store application data, with Mongoose handling database interaction from the backend.
 
-* Holdings
-* Positions
-* Orders
-* MongoDB connection
-
-### Dashboard
-
-The dashboard part is used for the trading-related UI and components.
-
-## 🔌 Some Backend APIs
+## Backend APIs
 
 ### Get Holdings
 
@@ -83,7 +85,7 @@ GET /allPositions
 POST /newOrder
 ```
 
-Example:
+Example request:
 
 ```json
 {
@@ -94,16 +96,16 @@ Example:
 }
 ```
 
-## ▶️ Running the Project Locally
+## Running Locally
 
-First clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Zaid-Shabab/Zerodha-Clone.git
 cd Zerodha-Clone
 ```
 
-### Run Backend
+### Backend
 
 ```bash
 cd backend
@@ -111,13 +113,13 @@ npm install
 node index.js
 ```
 
-Backend will run on:
+Backend runs on:
 
 ```text
 http://localhost:3002
 ```
 
-### Run Frontend
+### Frontend
 
 Open another terminal:
 
@@ -127,28 +129,32 @@ npm install
 npm start
 ```
 
-Frontend will run on:
+Frontend runs on:
 
 ```text
 http://localhost:3000
 ```
 
-## 🔐 Environment Variable
+## Environment Variables
 
-For the backend, create a `.env` file:
+Create a `.env` file in the backend directory:
 
 ```env
 MONGO_URL=your_mongodb_connection_string
 ```
 
-Don't upload your `.env` file or database password to GitHub.
+Do not commit your `.env` file or database credentials to GitHub.
 
-## 📌 Note
+## Screenshots
 
-This is a **practice/educational project** inspired by Zerodha. It is not the official Zerodha website or application.
+Screenshots of the application will be added here.
 
-## 👨‍💻 About Me
+## Note
 
-I'm building this project to improve my skills in **React, Node.js, Express and MongoDB** and to understand how frontend and backend work together in a real project.
+This is a practice and educational project inspired by Zerodha. It is not affiliated with or an official product of Zerodha.
 
-Thanks for checking out my project! 🙂
+## Author
+
+**Zaid Shabab**
+
+GitHub: https://github.com/Zaid-Shabab
